@@ -1,0 +1,30 @@
+IDE Eclipse Neon
+Selenium version 3.0.1
+Cucumber JVM
+Browser Chrome
+Maven 
+
+Instructions:
+
+I have provided a list of several test users that must be used when running the "Delete register User from BrightTalk and check that the user is unable to log back into the platform"
+Scenario. 
+
+Once the second scenario is run, the test username/password no longer has the ability to
+login to the Bright Talk platform.
+
+Replace the |username|password| fields with the following (for Example). 
+|username             |password             |
+|deleteuser7@gmail.com|deleteuser7@gmail.com|
+deleteuser8@gmail.com
+deleteuser9@gmail.com
+deleteuser10@gmail.com
+
+For simplicity sake, I have made the username and password the same.
+
+Running the Test....
+1. You can run the test using the command line mvn test
+2. Select TestRunnerFeatures.java right-click and run as a Junit test
+3. Select BrightTalk.feature and run as a Cucumber feature
+
+Having used both Firefox and Chrome browsers, I have settled with chrome.
+Firefox versions 49.0.1/51.0.1 results were too inconsistent.
